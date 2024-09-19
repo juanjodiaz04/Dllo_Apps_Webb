@@ -94,7 +94,8 @@ section {
 .logos {
     max-width: 50px;  
     height: auto; 
-    float: right;    
+    float: right;
+    padding: 10px;    
 }
 
 footer{

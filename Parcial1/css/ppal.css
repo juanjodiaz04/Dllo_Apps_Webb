@@ -43,7 +43,7 @@ section {
         "item1 item2 item3"
         ". item4 .";
     margin: 50px;
-    padding: 20px;
+    padding: 10px;
     & div{
         box-shadow: 10px 10px 10px white;
         margin: 20px;
@@ -55,15 +55,17 @@ section {
         }
         & p{
             text-align: left;
-            font: 0.8em sans-serif;
+            font: 0.9em sans-serif;
             color: white;
-            padding: 30px;
+            padding: 10px;
         }
     }
 }
 
 #dns{
     grid-area: item1;
+    grid-row: 1 / span 2; 
+    align-self: center; 
     border-top: 5px solid red;
     background-color: rgba(189, 189, 208, 0.5);
     
@@ -77,6 +79,8 @@ section {
 
 #tcp-ip{
     grid-area: item3;
+    grid-row: 1 / span 2; 
+    align-self: center; 
     border-top: 5px solid rgb(0, 179, 255);
     background-color: rgba(186, 50, 150, 0.5);
 }

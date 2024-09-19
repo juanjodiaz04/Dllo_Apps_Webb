@@ -49,12 +49,13 @@ section {
         margin-left: 15px;
         font: 1.5em sans-serif;
         color: salmon;
+        margin-bottom: 0px;
     }
     & p{
         text-align: left;
-        font: 0.8em sans-serif;
+        font: 0.9em sans-serif;
         color: white;
-        padding: 30px;
+        padding: 10px;
     }
 }
 

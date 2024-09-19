@@ -43,7 +43,7 @@ main{
 }
 
 section {
-    box-shadow: 10px 10px 10px white;    
+    box-shadow: 10px 10px 10px white;  
     & h2{
         text-align: left;
         margin-left: 15px;
@@ -52,9 +52,9 @@ section {
     }
     & p{
         text-align: left;
-        font: 0.8em sans-serif;
+        font: 0.9em sans-serif;
         color: white;
-        padding: 30px;
+        padding: 10px;
     }
 }
 

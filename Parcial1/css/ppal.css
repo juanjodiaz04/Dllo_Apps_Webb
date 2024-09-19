@@ -1,0 +1,106 @@
+header {
+    & h1{
+        text-align: center;
+        font: 2em sans-serif;
+        color: white;
+        text-shadow: 10px -10px 10px white;
+    }
+
+    & h2{
+        text-align: center;
+        font: 1.5em sans-serif;
+        color: salmon;
+    }
+}
+
+body{
+    background-image: url(/src/img_bg.jpg);
+    background-size: 500px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(55, 55, 174, 0.5);
+    margin-right: 20px;
+    margin-left: 20px; 
+    & li{
+        padding: 20px;
+    }
+    & a{
+        text-decoration: none;
+        color: white;
+        font: 1em sans-serif;
+    }
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas */
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "item1 item2 item3"
+        ". item4 .";
+    margin: 50px;
+    padding: 20px;
+    & div{
+        box-shadow: 10px 10px 10px white;
+        margin: 20px;
+        & h3{
+            text-align: start;
+            margin-left: 15px;
+            font: 1.5em sans-serif;
+            color: salmon;
+        }
+        & p{
+            text-align: left;
+            font: 0.8em sans-serif;
+            color: white;
+            padding: 30px;
+        }
+    }
+}
+
+#dns{
+    grid-area: item1;
+    border-top: 5px solid red;
+    background-color: rgba(189, 189, 208, 0.5);
+    
+}
+
+#html{
+    grid-area: item2;
+    border-top: 5px solid rgb(212, 0, 255);
+    background-color: rgba(135, 49, 196, 0.5);
+}
+
+#tcp-ip{
+    grid-area: item3;
+    border-top: 5px solid rgb(0, 179, 255);
+    background-color: rgba(186, 50, 150, 0.5);
+}
+
+#css{
+    grid-area: item4;
+    border-top: 5px solid rgb(55, 0, 255);
+    background-color: rgba(55, 174, 132, 0.5);
+}
+
+.logos {
+    max-width: 50px;  
+    height: auto; 
+    float: right;    
+}
+
+footer{
+    & div{
+        padding: 0px;
+        & h3{
+            text-align: center;
+            font: 0.9em sans-serif;
+            color: white;
+        }
+    }
+}
+
